@@ -1,0 +1,19 @@
+# Node
+node_modules/
+npm-debug.log*
+
+# Frontend build
+frontend/dist/
+frontend/.vite/
+
+# Environment variables — NEVER commit secrets
+backend/.env
+.env
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/
+.idea/
