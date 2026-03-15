@@ -22,8 +22,9 @@ const connectDB = async () => {
 const start = async () => {
   try {
     // Enable CORS for the frontend origin
+    const allowedOrigin = process.env.FRONTEND_URL || '*';
     await fastify.register(cors, {
-      origin: '*', // We allow all in dev, stringently filter in production
+      origin: allowedOrigin,
       methods: ['GET', 'POST', 'OPTIONS']
     });
 
