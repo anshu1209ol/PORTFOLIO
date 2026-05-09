@@ -64,10 +64,10 @@ const Projects = () => {
                   <Folder size={28} className="stroke-[1.5]" />
                 </div>
                 <div className="flex gap-4">
-                  <a href={project.github} className="text-gray-400 hover:text-white transition-colors">
+                  <a href={project.github} target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-white transition-colors" aria-label={`View ${project.title} on GitHub`}>
                     <Github size={20} />
                   </a>
-                  <a href={project.live} className="text-gray-400 hover:text-white transition-colors">
+                  <a href={project.live} target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-white transition-colors" aria-label={`Visit ${project.title} live site`}>
                     <ExternalLink size={20} />
                   </a>
                 </div>

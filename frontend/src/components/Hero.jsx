@@ -64,13 +64,13 @@ const Hero = () => {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.5, delay: 0.4 }}
         >
-          <a href="https://github.com/anshu1209ol" target="_blank" rel="noopener noreferrer" className="p-3 rounded-full bg-slate-800/50 text-gray-400 hover:text-white hover:bg-primary-accent/20 transition-all border border-glass-border">
+          <a href="https://github.com/anshu1209ol" target="_blank" rel="noopener noreferrer" className="p-3 rounded-full bg-slate-800/50 text-gray-400 hover:text-white hover:bg-primary-accent/20 transition-all border border-glass-border" aria-label="Visit Anshul Sikarwar's GitHub profile">
             <Github size={24} />
           </a>
-          <a href="https://www.linkedin.com/in/ansul-4265a135a?utm_source=share_via&utm_content=profile&utm_medium=member_android" target="_blank" rel="noopener noreferrer" className="p-3 rounded-full bg-slate-800/50 text-gray-400 hover:text-white hover:bg-secondary-accent/20 transition-all border border-glass-border">
+          <a href="https://www.linkedin.com/in/ansul-4265a135a?utm_source=share_via&utm_content=profile&utm_medium=member_android" target="_blank" rel="noopener noreferrer" className="p-3 rounded-full bg-slate-800/50 text-gray-400 hover:text-white hover:bg-secondary-accent/20 transition-all border border-glass-border" aria-label="Connect with Anshul Sikarwar on LinkedIn">
             <Linkedin size={24} />
           </a>
-          <a href="mailto:anshulsikarwar84@gmail.com" className="p-3 rounded-full bg-slate-800/50 text-gray-400 hover:text-white hover:bg-purple-500/20 transition-all border border-glass-border">
+          <a href="mailto:anshulsikarwar84@gmail.com" className="p-3 rounded-full bg-slate-800/50 text-gray-400 hover:text-white hover:bg-purple-500/20 transition-all border border-glass-border" aria-label="Send an email to Anshul Sikarwar">
             <Mail size={24} />
           </a>
         </motion.div>

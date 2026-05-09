@@ -19,7 +19,7 @@ function App() {
       <CyberBackground />
       <BotAssistant />
       <Navbar />
-      
+
       <main>
         <Hero />
         <About />
@@ -35,17 +35,17 @@ function App() {
       <footer className="py-12 border-t border-glass-border">
         <div className="max-w-7xl mx-auto px-4 flex flex-col items-center">
           <div className="flex items-center gap-6 mb-6">
-            <a href="https://github.com/anshu1209ol" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-white transition-colors">
+            <a href="https://github.com/anshu1209ol" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-white transition-colors" aria-label="Anshul Sikarwar's GitHub">
               <Github size={20} />
             </a>
-            <a href="https://www.linkedin.com/in/ansul-4265a135a?utm_source=share_via&utm_content=profile&utm_medium=member_android" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-white transition-colors">
+            <a href="https://www.linkedin.com/in/ansul-4265a135a?utm_source=share_via&utm_content=profile&utm_medium=member_android" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-white transition-colors" aria-label="Anshul Sikarwar's LinkedIn">
               <Linkedin size={20} />
             </a>
-            <a href="mailto:anshulsikarwar84@gmail.com" className="text-gray-400 hover:text-white transition-colors">
+            <a href="mailto:anshulsikarwar84@gmail.com" className="text-gray-400 hover:text-white transition-colors" aria-label="Email Anshul Sikarwar">
               <Mail size={20} />
             </a>
           </div>
-          <p className="text-gray-500 text-sm font-light">© {new Date().getFullYear()} Anshul Sikarwar. Built with React & Node.js.</p>
+          <p className="text-gray-500 text-sm font-light">© {new Date().getFullYear()} Anshul Sikarwar. Built with Passion and Hardwork ❤️.</p>
         </div>
       </footer>
     </div>
